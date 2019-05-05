@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>All Platforms.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Glue iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Glue macOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Glue tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Glue watchOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CB3B822A227EF40C009574D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB3B8254227EF614009574D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB3B8268227EF748009574D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB3B827B227EF82A009574D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB3B828D227EF8EF009574D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB3B8295227EF8EF009574D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB3B82B2227EF980009574D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
