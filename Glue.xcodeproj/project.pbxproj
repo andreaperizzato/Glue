@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB30FC422289C9BA001613DC /* Glue.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3B822E227EF40C009574D6 /* Glue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB30FC432289C9BB001613DC /* Glue.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3B822E227EF40C009574D6 /* Glue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB30FC442289C9BD001613DC /* Glue.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3B822E227EF40C009574D6 /* Glue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB3B8230227EF40C009574D6 /* Glue.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3B822E227EF40C009574D6 /* Glue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB3B8246227EF4A4009574D6 /* Intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3B8242227EF4A4009574D6 /* Intent.swift */; };
 		CB3B8247227EF4A4009574D6 /* StoreSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3B8243227EF4A4009574D6 /* StoreSubscription.swift */; };
@@ -45,7 +48,6 @@
 		CB3B82BF227EF9A4009574D6 /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3B8245227EF4A4009574D6 /* Effect.swift */; };
 		CB3B82C0227EF9A4009574D6 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3B8244227EF4A4009574D6 /* Store.swift */; };
 		CB3B82C1227EF9A4009574D6 /* StoreSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3B8243227EF4A4009574D6 /* StoreSubscription.swift */; };
-		CB3B82CF227EF9EE009574D6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB3B82CE227EF9EE009574D6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,6 +234,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB30FC422289C9BA001613DC /* Glue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +242,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB30FC432289C9BB001613DC /* Glue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +250,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB30FC442289C9BD001613DC /* Glue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +453,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB3B82CF227EF9EE009574D6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,7 +650,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -704,7 +708,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -719,6 +723,7 @@
 		CB3B8234227EF40C009574D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -746,6 +751,7 @@
 		CB3B8235227EF40C009574D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -809,6 +815,7 @@
 		CB3B826F227EF748009574D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -824,7 +831,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.andrea.Glue;
 				PRODUCT_MODULE_NAME = Glue;
 				PRODUCT_NAME = Glue;
@@ -837,6 +844,7 @@
 		CB3B8270227EF748009574D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -852,7 +860,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.andrea.Glue;
 				PRODUCT_MODULE_NAME = Glue;
 				PRODUCT_NAME = Glue;
@@ -905,6 +913,7 @@
 		CB3B82A0227EF8EF009574D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -925,13 +934,14 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
 		CB3B82A1227EF8EF009574D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -952,7 +962,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -1022,7 +1032,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -1050,7 +1060,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
