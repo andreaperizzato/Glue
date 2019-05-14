@@ -26,7 +26,7 @@ public class AnyViewModelEmitter<ViewModel>: ViewModelEmitter {
   private let baseUnregister: () -> Void
   private let baseRegister: (AnyRenderer<ViewModel>) -> Void
 
-  init<E: ViewModelEmitter>(_ emitter: E) where E.ViewModel == ViewModel {
+  public init<E: ViewModelEmitter>(_ emitter: E) where E.ViewModel == ViewModel {
     self.base = emitter
     self.baseUnregister = emitter.unregister
     self.baseRegister = emitter.register
