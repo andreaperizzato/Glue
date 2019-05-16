@@ -41,7 +41,11 @@ class StoreSubscription<State, Substate>: BaseStoreSubscription<State> {
     let oldSubstate = oldState.map(selector)
     let substate = selector(state)
     guard hasChanged(oldSubstate, substate) else { return }
-    queue.async { self.handler(substate) }
+    if queue.label == DispatchQueue.main.label && Thread.isMainThread {
+      handler(substate)
+    } else {
+      queue.async { self.handler(substate) }
+    }
   }
 }
 
